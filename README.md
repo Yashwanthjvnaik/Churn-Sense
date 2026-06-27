@@ -129,17 +129,21 @@ ChurnSense/
 <h2> Home Dashboard</h2>
 <img src="Screenshots/home_dashboard.png" width="900">
 
+
 <h2> Model Training</h2>
 <img src="Screenshots/auto_train.png" width="900">
 <img src="Screenshots/auto_train_result.png" width="900">
+
 
 <h2> Single Customer Prediction</h2>
 <img src="Screenshots/single_prediction.png" width="900">
 <img src="Screenshots/single_prediction_result.png" width="900">
 
+
 <h2> Bulk Customer Prediction</h2>
 <img src="Screenshots/bulk_prediction.png" width="900">
 <img src="Screenshots/bulk_prediction_result.png" width="900">
+
 
 <h2> Predicted Results Dataset</h2>
 <img src="Screenshots/predicted_result.png" width="900">
