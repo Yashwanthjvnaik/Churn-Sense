@@ -96,13 +96,14 @@ ChurnSense/
 ├── README.md
 ├── churn_model.pkl
 ├── feature_columns.pkl
+
+
+│   Dataset/
+├── data.csv
+└── .ipynb_checkpoints/
 │
-├── Dataset/
-│   ├── customer_churn.csv
-│   ├── sample_bulk_prediction.csv
-│   └── predicted_results.csv
 │
-├── Notebook/
+├── Python/
 │   └── Customer_Churn_Prediction.ipynb
 │
 ├── Screenshots/
