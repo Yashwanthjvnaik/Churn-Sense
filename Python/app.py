@@ -20,8 +20,18 @@ st.set_page_config(
 # -----------------------------
 # LOAD MODEL
 # -----------------------------
-model = pickle.load(open("churn_model.pkl", "rb"))
-feature_columns = pickle.load(open("feature_columns.pkl", "rb"))
+#model = pickle.load(open("churn_model.pkl", "rb"))
+#feature_columns = pickle.load(open("feature_columns.pkl", "rb"))
+from pathlib import Path
+import pickle
+
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_PATH = BASE_DIR / "churn_model.pkl"
+FEATURE_PATH = BASE_DIR / "feature_columns.pkl"
+
+model = pickle.load(open(MODEL_PATH, "rb"))
+feature_columns = pickle.load(open(FEATURE_PATH, "rb"))
 
 # -----------------------------
 # TITLE
