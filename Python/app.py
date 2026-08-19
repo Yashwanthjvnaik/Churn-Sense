@@ -53,7 +53,7 @@ st.sidebar.subheader("📁 Dataset")
 st.sidebar.write("IBM Telco Customer Churn")
 st.sidebar.markdown("---")
 st.sidebar.subheader("👨‍💻 Developer")
-st.sidebar.write("Yashwanth Naik")
+st.sidebar.write("Yashwanth J V Nayak")
 
 
 # =====================================================
